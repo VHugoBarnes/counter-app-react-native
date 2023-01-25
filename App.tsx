@@ -1,9 +1,9 @@
 import React from "react";
-import Counter from "./src/screens/Counter.screen";
+import BoxModel from "./src/screens/BoxModel.screen";
 
 const App = () => {
   return (
-    <Counter />
+    <BoxModel />
   );
 };
 
