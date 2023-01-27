@@ -1,9 +1,9 @@
 import React from "react";
-import BoxModel from "./src/screens/BoxModel.screen";
+import AbsolutePosition from "./src/screens/AbsolutePosition.screen";
 
 const App = () => {
   return (
-    <BoxModel />
+    <AbsolutePosition />
   );
 };
 
