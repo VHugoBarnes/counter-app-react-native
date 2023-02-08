@@ -1,9 +1,9 @@
 import React from "react";
-import Homework3 from "./src/screens/position/Homework3.screen";
+import Homework4 from "./src/screens/position/Homework4.screen";
 
 const App = () => {
   return (
-    <Homework3 />
+    <Homework4 />
   );
 };
 
