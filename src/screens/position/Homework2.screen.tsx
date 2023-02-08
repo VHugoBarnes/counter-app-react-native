@@ -15,28 +15,31 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: "#1E40AF",
     flex: 1,
+    flexDirection: "row",
   },
   box_1: {
     backgroundColor: "#6366F1",
-    width: 100,
-    height: 100,
+    width: 20,
     borderColor: "#1E3A8A",
     borderWidth: 10,
+    flex: 1,
+    marginRight: 10,
   },
   box_2: {
     backgroundColor: "#F59E0B",
-    width: 100,
-    height: 100,
+    width: 20,
     borderColor: "#B45309",
     borderWidth: 10,
     flex: 1,
+    marginHorizontal: 10,
   },
   box_3: {
     backgroundColor: "#34D399",
-    width: 100,
-    height: 100,
+    width: 20,
     borderColor: "#047857",
     borderWidth: 10,
+    flex: 1,
+    marginLeft: 10,
   },
 });
 
