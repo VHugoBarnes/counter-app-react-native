@@ -17,8 +17,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    flexDirection: "row",
-    flexWrap: "nowrap",
   },
   box_1: {
     backgroundColor: "#6366F1",
@@ -26,6 +24,7 @@ const styles = StyleSheet.create({
     height: 100,
     borderColor: "#1E3A8A",
     borderWidth: 10,
+    top: 100,
   },
   box_2: {
     backgroundColor: "#F59E0B",
@@ -33,6 +32,8 @@ const styles = StyleSheet.create({
     height: 100,
     borderColor: "#B45309",
     borderWidth: 10,
+    position: "relative",
+    left: 100,
   },
   box_3: {
     backgroundColor: "#34D399",

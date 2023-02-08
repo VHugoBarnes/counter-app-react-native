@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet, SafeAreaView } from "react-native";
 
-const Homework1 = () => {
+const Homework8 = () => {
   return (
     <SafeAreaView style={[styles.container]}>
       <View style={[styles.box_1]} />
@@ -43,4 +43,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Homework1;
+export default Homework8;
