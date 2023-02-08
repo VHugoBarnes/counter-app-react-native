@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet, SafeAreaView } from "react-native";
 
-const Homework1 = () => {
+const Homework9 = () => {
   return (
     <SafeAreaView style={[styles.container]}>
       <View style={[styles.box_1]} />
@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: "#1E40AF",
     flex: 1,
+    justifyContent: "center",
   },
   box_1: {
     backgroundColor: "#6366F1",
@@ -29,15 +30,13 @@ const styles = StyleSheet.create({
     height: 100,
     borderColor: "#B45309",
     borderWidth: 10,
-    flex: 1,
   },
   box_3: {
     backgroundColor: "#34D399",
-    width: 100,
     height: 100,
     borderColor: "#047857",
     borderWidth: 10,
   },
 });
 
-export default Homework1;
+export default Homework9;
