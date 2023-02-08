@@ -1,9 +1,9 @@
 import React from "react";
-import AbsolutePosition from "./src/screens/AbsolutePosition.screen";
+import Homework2 from "./src/screens/position/Homework2.screen";
 
 const App = () => {
   return (
-    <AbsolutePosition />
+    <Homework2 />
   );
 };
 
