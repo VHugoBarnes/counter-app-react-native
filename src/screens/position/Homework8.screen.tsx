@@ -15,6 +15,8 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: "#1E40AF",
     flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
   },
   box_1: {
     backgroundColor: "#6366F1",
@@ -29,7 +31,8 @@ const styles = StyleSheet.create({
     height: 100,
     borderColor: "#B45309",
     borderWidth: 10,
-    flex: 1,
+    position: "relative",
+    left: 100,
   },
   box_3: {
     backgroundColor: "#34D399",
